@@ -1,0 +1,25 @@
+[
+  {
+    "$type": "test2.SingleChoiceQuestion, test2",
+    "Text": "Как называется метод, который выполняется при запуске приложения C#?",
+    "Options": [ "Start", "Init", "Main", "Run" ],
+    "CorrectAnswer": "Main"
+  },
+  {
+    "$type": "test2.MultipleChoiceQuestion, test2",
+    "Text": "Какие типы данных существуют в C#?",
+    "Options": [ "int", "float", "bool", "string", "char", "object" ],
+    "CorrectAnswers": [ "int", "float", "bool", "string", "char", "object" ]
+  },
+  {
+    "$type": "test2.TextQuestion, test2",
+    "Text": "Какое ключевое слово используется для создания объекта в C#?",
+    "CorrectAnswer": "new"
+  },
+  {
+    "$type": "test2.MatchingQuestion, test2",
+    "Text": "Соотнесите типы данных с их размером в байтах.",
+    "Options": [ "int->4", "float->4", "double->8", "char->2" ],
+    "CorrectAnswer": [ "int->4", "float->4", "double->8", "char->2" ]
+  }
+]

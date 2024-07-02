@@ -1,0 +1,25 @@
+[
+  {
+    "$type": "test2.SingleChoiceQuestion, test2",
+    "Text": "Как называется механизм, позволяющий одному классу наследовать свойства и методы другого класса?",
+    "Options": [ "Полиморфизм", "Инкапсуляция", "Наследование", "Абстракция" ],
+    "CorrectAnswer": "Наследование"
+  },
+  {
+    "$type": "test2.MultipleChoiceQuestion, test2",
+    "Text": "Какие модификаторы доступа существуют в C#?",
+    "Options": [ "public", "private", "protected", "internal", "protected internal" ],
+    "CorrectAnswers": [ "public", "private", "protected", "internal", "protected internal" ]
+  },
+  {
+    "$type": "test2.TextQuestion, test2",
+    "Text": "Как называется метод, который вызывается при создании объекта класса?",
+    "CorrectAnswer": "Конструктор"
+  },
+  {
+    "$type": "test2.MatchingQuestion, test2",
+    "Text": "Соотнесите ключевые слова C# с их назначением.",
+    "Options": [ "class->Объявление класса", "namespace->Объявление пространства имен", "using->Подключение пространств имен", "void->Указание на отсутствие возвращаемого значения" ],
+    "CorrectAnswer": [ "class->Объявление класса", "namespace->Объявление пространства имен", "using->Подключение пространств имен", "void->Указание на отсутствие возвращаемого значения" ]
+  }
+]
